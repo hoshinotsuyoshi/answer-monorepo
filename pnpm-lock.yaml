@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      pnpm:
+        specifier: ^8.0.0
+        version: 8.15.9
+
+  packages/answer: {}
+
+  packages/cli:
+    dependencies:
+      '@hoshinotsuyoshi/answer':
+        specifier: workspace:*
+        version: link:../answer
+
+packages:
+
+  pnpm@8.15.9:
+    resolution: {integrity: sha512-SZQ0ydj90aJ5Tr9FUrOyXApjOrzuW7Fee13pDzL0e1E6ypjNXP0AHDHw20VLw4BO3M1XhQHkyik6aBYWa72fgQ==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+
+snapshots:
+
+  pnpm@8.15.9: {}

@@ -1,0 +1,15 @@
+{
+  "name": "@hoshinotsuyoshi/answer-cli",
+  "version": "0.0.1",
+  "description": "CLI for the @hoshinotsuyoshi/answer package",
+  "main": "index.js",
+  "bin": {
+    "answer-cli": "index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hoshinotsuyoshi/answer": "workspace:*"
+  },
+  "author": "Hoshinotsuyoshi",
+  "license": "MIT"
+}
