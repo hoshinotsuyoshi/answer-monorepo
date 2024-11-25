@@ -4,7 +4,7 @@
   "description": "CLI for the @hoshinotsuyoshi/answer package",
   "main": "index.js",
   "bin": {
-    "answer-cli": "index.js"
+    "answer-cli": "./index.js"
   },
   "type": "module",
   "dependencies": {
