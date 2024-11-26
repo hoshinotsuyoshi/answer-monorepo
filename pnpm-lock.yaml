@@ -13,11 +13,10 @@ importers:
         version: 8.15.9
 
   packages/cli:
-    dependencies:
+    devDependencies:
       '@hoshinotsuyoshi/answer-core':
         specifier: workspace:*
         version: link:../core
-    devDependencies:
       '@rollup/plugin-node-resolve':
         specifier: ^15.3.0
         version: 15.3.0(rollup@4.27.4)

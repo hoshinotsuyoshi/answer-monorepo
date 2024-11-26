@@ -2,20 +2,20 @@
   "name": "@hoshinotsuyoshi/answer-cli",
   "version": "0.0.3",
   "description": "CLI for the @hoshinotsuyoshi/answer-core package",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "answer-cli": "./index.js"
+    "answer-cli": "dist/index.js"
   },
   "type": "module",
-  "dependencies": {
-    "@hoshinotsuyoshi/answer-core": "workspace:*"
-  },
   "author": "Hoshinotsuyoshi",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "pnpm run build"
+  },
   "devDependencies": {
+    "@hoshinotsuyoshi/answer-core": "workspace:*",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "rollup": "^4.27.4"
   }
