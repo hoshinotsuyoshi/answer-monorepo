@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       pnpm:
-        specifier: ^8.0.0
-        version: 8.15.9
+        specifier: 9.11.0
+        version: 9.11.0
 
   packages/cli:
     devDependencies:
@@ -175,9 +175,9 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@8.15.9:
-    resolution: {integrity: sha512-SZQ0ydj90aJ5Tr9FUrOyXApjOrzuW7Fee13pDzL0e1E6ypjNXP0AHDHw20VLw4BO3M1XhQHkyik6aBYWa72fgQ==}
-    engines: {node: '>=16.14'}
+  pnpm@9.11.0:
+    resolution: {integrity: sha512-CiA/+u1aP2MkLNBkyPtYkjZsED4ygHkxj3gGLyTqjJ1QvGpHqjVnyr79gk0XDnj6J0XtHxaxMuFkNhRrdojxmw==}
+    engines: {node: '>=18.12'}
     hasBin: true
 
   resolve@1.22.8:
@@ -294,7 +294,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@8.15.9: {}
+  pnpm@9.11.0: {}
 
   resolve@1.22.8:
     dependencies:
