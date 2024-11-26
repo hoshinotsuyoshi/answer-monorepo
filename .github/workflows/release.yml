@@ -20,6 +20,7 @@ jobs:
       - run: pnpm test --filter @hoshinotsuyoshi/answer-core
 
       # release
-      - run: pnpm publish --access public --filter @hoshinotsuyoshi/answer-cli
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: pnpm publish --access public --filter @hoshinotsuyoshi/answer-cli
