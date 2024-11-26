@@ -11,5 +11,8 @@
     "@hoshinotsuyoshi/answer": "workspace:*"
   },
   "author": "Hoshinotsuyoshi",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ]
 }
