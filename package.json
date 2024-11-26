@@ -1,6 +1,7 @@
 {
   "name": "answer-monorepo",
   "private": true,
+  "packageManager": "pnpm@9.11.0",
   "devDependencies": {
     "pnpm": "^8.0.0"
   }

@@ -1,0 +1,16 @@
+name: release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test_and_release:
+    runs-on: ubuntu-latest
+    steps:
+      # setup
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4.0.0
+      - run: pnpm i --frozen-lockfile
+
+      # test
+      - run: pnpm test --filter @hoshinotsuyoshi/answer-core
