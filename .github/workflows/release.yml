@@ -3,9 +3,13 @@ on:
   push:
     branches:
       - main
+
+concurrency: ${{ github.workflow }}
+
 jobs:
   test_and_release:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       # setup
       - uses: actions/checkout@v4
@@ -14,3 +18,8 @@ jobs:
 
       # test
       - run: pnpm test --filter @hoshinotsuyoshi/answer-core
+
+      # release
+      - run: pnpm publish --access public --filter @hoshinotsuyoshi/answer-cli
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
