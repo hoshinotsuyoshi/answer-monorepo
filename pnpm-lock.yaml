@@ -12,13 +12,13 @@ importers:
         specifier: ^8.0.0
         version: 8.15.9
 
-  packages/answer: {}
-
   packages/cli:
     dependencies:
-      '@hoshinotsuyoshi/answer':
+      '@hoshinotsuyoshi/answer-core':
         specifier: workspace:*
-        version: link:../answer
+        version: link:../core
+
+  packages/core: {}
 
 packages:
 

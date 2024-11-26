@@ -1,14 +1,14 @@
 {
   "name": "@hoshinotsuyoshi/answer-cli",
   "version": "0.0.2",
-  "description": "CLI for the @hoshinotsuyoshi/answer package",
+  "description": "CLI for the @hoshinotsuyoshi/answer-core package",
   "main": "index.js",
   "bin": {
     "answer-cli": "./index.js"
   },
   "type": "module",
   "dependencies": {
-    "@hoshinotsuyoshi/answer": "workspace:*"
+    "@hoshinotsuyoshi/answer-core": "workspace:*"
   },
   "author": "Hoshinotsuyoshi",
   "license": "MIT",

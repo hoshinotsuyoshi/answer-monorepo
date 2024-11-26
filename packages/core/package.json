@@ -1,5 +1,5 @@
 {
-  "name": "@hoshinotsuyoshi/answer",
+  "name": "@hoshinotsuyoshi/answer-core",
   "version": "0.0.1",
   "description": "A simple package that returns the answer 42.",
   "main": "index.js",
