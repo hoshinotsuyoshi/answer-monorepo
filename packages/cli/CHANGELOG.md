@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-cli
 
+## 0.0.9
+
+### Patch Changes
+
+- 630eb9d: Add a comment
+
 ## 0.0.8
 
 ### Patch Changes

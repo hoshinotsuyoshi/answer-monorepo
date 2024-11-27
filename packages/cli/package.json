@@ -1,6 +1,6 @@
 {
   "name": "@hoshinotsuyoshi/answer-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "CLI for the @hoshinotsuyoshi/answer-core package",
   "main": "dist/index.js",
   "bin": {
