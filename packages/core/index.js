@@ -13,3 +13,7 @@ export function getAnswer44() {
 export function getAnswer45() {
   return 45;
 }
+
+export function getAnswer46() {
+  return 46;
+}
