@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-core
 
+## 0.0.4
+
+### Patch Changes
+
+- c681778: core: add `getAnswer44` function
+
 ## 0.0.3
 
 ### Patch Changes
