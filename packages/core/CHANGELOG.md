@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-core
 
+## 0.0.6
+
+### Patch Changes
+
+- cd758e4: add `getAnswer47` function
+
 ## 0.0.5
 
 ### Patch Changes

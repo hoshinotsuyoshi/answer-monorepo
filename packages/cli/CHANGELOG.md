@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-cli
 
+## 0.0.7
+
+### Patch Changes
+
+- 6e39c69: Add another bang
+
 ## 0.0.6
 
 ### Patch Changes
