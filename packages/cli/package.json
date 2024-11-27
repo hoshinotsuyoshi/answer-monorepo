@@ -9,7 +9,9 @@
   "type": "module",
   "author": "Hoshinotsuyoshi",
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "pnpm run build"
