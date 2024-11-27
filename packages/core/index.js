@@ -5,3 +5,7 @@ export function getAnswer() {
 export function getAnswer43() {
   return 43;
 }
+
+export function getAnswer44() {
+  return 44;
+}
