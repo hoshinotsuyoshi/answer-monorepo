@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-core
 
+## 0.0.5
+
+### Patch Changes
+
+- d22db2c: core: add `getAnswer46` function
+
 ## 0.0.4
 
 ### Patch Changes
