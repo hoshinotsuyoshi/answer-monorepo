@@ -17,3 +17,7 @@ export function getAnswer45() {
 export function getAnswer46() {
   return 46;
 }
+
+export function getAnswer47() {
+  return 47;
+}
