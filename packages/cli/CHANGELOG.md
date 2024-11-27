@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-cli
 
+## 0.0.8
+
+### Patch Changes
+
+- b279ad9: Update output sentence
+
 ## 0.0.7
 
 ### Patch Changes

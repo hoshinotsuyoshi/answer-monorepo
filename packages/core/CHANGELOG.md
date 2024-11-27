@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-core
 
+## 0.0.7
+
+### Patch Changes
+
+- 74c3757: Add "private": true
+
 ## 0.0.6
 
 ### Patch Changes
