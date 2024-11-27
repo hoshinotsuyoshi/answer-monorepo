@@ -36,7 +36,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1.4.9
-        with:
-          publish: pnpm publish --access public --filter @hoshinotsuyoshi/answer-cli
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
