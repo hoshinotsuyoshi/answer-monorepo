@@ -1,5 +1,11 @@
 # @hoshinotsuyoshi/answer-core
 
+## 0.0.8
+
+### Patch Changes
+
+- 81cbd53: add `getAnswer48` function
+
 ## 0.0.7
 
 ### Patch Changes

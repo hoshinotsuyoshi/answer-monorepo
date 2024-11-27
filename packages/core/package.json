@@ -1,6 +1,6 @@
 {
   "name": "@hoshinotsuyoshi/answer-core",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A simple package that returns the answer 42.",
   "private": true,
   "main": "index.js",
