@@ -2,6 +2,7 @@
   "name": "@hoshinotsuyoshi/answer-core",
   "version": "0.0.6",
   "description": "A simple package that returns the answer 42.",
+  "private": true,
   "main": "index.js",
   "module": "index.js",
   "type": "module",
